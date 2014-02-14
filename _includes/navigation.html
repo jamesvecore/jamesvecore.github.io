@@ -20,8 +20,8 @@
 				{% if site.owner.facebook %}<li>
 					<a href="http://facebook.com/{{ site.owner.facebook }}"><i class="icon-facebook"></i> Facebook</a>
 				</li>{% endif %}
-				{% if site.owner.google_plus %}<li>
-					<a href="{{ site.owner.google_plus }}"><i class="icon-google-plus"></i> Google+</a>
+				{% if site.owner.google_plus_id %}<li>
+					<a href="http://plus.google.com/{{ site.owner.google_plus_id }}"><i class="icon-google-plus"></i> Google+</a>
 				</li>{% endif %}
 				{% if site.owner.linkedin %}<li>
 					<a href="http://linkedin.com/in/{{ site.owner.linkedin }}"><i class="icon-linkedin"></i> LinkedIn</a>
@@ -40,6 +40,9 @@
 				</li>{% endif %}
 				{% if site.owner.tumblr %}<li>
 					<a href="http://{{ site.owner.tumblr }}.tumblr.com"><i class="icon-tumblr"></i> Tumblr</a>
+				</li>{% endif %}
+                {% if site.owner.vimeo %}<li>
+					<a href="https://vimeo.com/{{ site.owner.vimeo }}"><i class="icon-vimeo"></i> Vimeo</a>
 				</li>{% endif %}
 			</ul><!-- /.dl-submenu -->
 		</li>
