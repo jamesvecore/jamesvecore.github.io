@@ -5,7 +5,7 @@ description: "Just a first post to test the blog engine"
 modified: 2014-02-16
 tags: [Me]
 image:
-  feature: cover.jpg
+  feature: default.jpg
 comments: false
 share: false
 ---
