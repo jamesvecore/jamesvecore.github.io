@@ -35,15 +35,9 @@ background: ps_neutral.png
 # Links to include in top navigation
 # For external links add external: true
 links:
-  - title: Git Hub
-    url: https://github.com/jamesvecore
-    external: true
-  - title: Vimeo
-    url: https://vimeo.com/jamesvecore
-    external: true
-  - title: LinkedIn
-    url: http://www.linkedin.com/in/jamesvecore
-    external: true
+#  - title: Git Hub
+#    url: https://github.com/jamesvecore
+#    external: true
 
 # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 timezone:    America/Detroit
