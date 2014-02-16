@@ -1,7 +1,7 @@
 ---
 layout: page
 permalink: /about/
-title: About My
+title: About Me
 tags: [Me]
 image:
   feature: cover.jpg
