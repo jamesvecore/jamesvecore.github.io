@@ -4,7 +4,7 @@ permalink: /about/
 title: About Me
 tags: [Me]
 image:
-  feature: default.jpg
+  feature: top_shot.jpg
 share: true
 ---
 
