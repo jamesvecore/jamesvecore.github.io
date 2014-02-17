@@ -3,7 +3,7 @@ layout: post
 title: Hierarchical Render Pass Manager for 3d Max
 description: "A Hierarchical Render Pass Manager for 3ds Max built on the 3ds Max .NET API"
 modified: 2014-01-02
-tags: [3ds Max, C#, WPF, Pass Manager, MAXScript]
+tags: [3ds Max, C#, WPF, .NET, Pass Manager, MAXScript]
 image:
   feature: default.jpg
 comments: true

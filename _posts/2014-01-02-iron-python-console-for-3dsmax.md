@@ -3,7 +3,7 @@ layout: post
 title: Iron Python Console for 3ds Max
 description: "This is an interactive IronPython console written in C# connected to 3ds Max's .NET API"
 modified: 2013-01-02
-tags: [IronPython, Python, 3ds Max, C#, WPF]
+tags: [IronPython, Python, 3ds Max, C#, WPF, .NET]
 image:
   feature: default.jpg
 comments: true
