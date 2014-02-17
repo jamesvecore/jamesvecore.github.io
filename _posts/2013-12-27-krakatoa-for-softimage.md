@@ -3,7 +3,7 @@ layout: post
 title: Krakatoa For Softimage Open Sourced
 description: "An open source integration of the Krakatoa SR api into Softimage as render engine."
 modified: 2013-12-27
-tags: [Krakatoa, Softimage, XSI, Rendering, Particles, ICE]
+tags: [Krakatoa, Softimage, XSI, Rendering, Particles, ICE, C++]
 image:
   feature: default.jpg
 comments: true

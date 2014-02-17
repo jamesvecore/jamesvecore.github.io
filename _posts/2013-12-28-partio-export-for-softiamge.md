@@ -3,7 +3,7 @@ layout: post
 title: Partio Export For Softimage
 description: "An open source project that uses the Partio library to export particles from Softimage."
 modified: 2013-12-28
-tags: [Krakatoa, Softimage, XSI, Rendering, Particles, ICE, Partio]
+tags: [Krakatoa, Softimage, XSI, Rendering, Particles, ICE, Partio, C++]
 image:
   feature: default.jpg
 comments: true
