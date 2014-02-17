@@ -35,7 +35,22 @@
 	right: 20px;
 	position: absolute;
 	z-index: 2;
-    background-color: rgba(34,34,34,0.3);
+    background-color: rgba(77,77,77,0.5);
+    padding: 5px;
+    -webkit-border-top-right-radius: 3px;
+    border-top-right-radius: 3px;
+    -webkit-border-bottom-right-radius: 3px;
+    border-bottom-right-radius: 3px;
+    -webkit-border-bottom-left-radius: 3px;
+    border-bottom-left-radius: 3px;
+    -webkit-border-top-left-radius: 3px;
+    border-top-left-radius: 3px;
+    -moz-border-radius-topright: 3px;
+    -moz-border-radius-bottomright: 3px;
+    -moz-border-radius-bottomleft: 3px;
+    -moz-border-radius-topleft: 3px;
+    -webkit-background-clip: padding-box;
+    -moz-background-clip: padding;
 }
 
 .social-links a {
