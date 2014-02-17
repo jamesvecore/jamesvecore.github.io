@@ -53,4 +53,5 @@ Only exporting is supported and not all Partio formats supported. The following 
 I tried to do some default channel name mapping for known channel types so that data works in the resulting format as expected.
 See the code for mapping details. The specifics might need adjusting depending on your format choice and end software choice.
 
+-------------
 [^1]: if you plan on using the .BIN format, please see [my pull request](https://github.com/wdas/partio/pull/36) for the partio library which fixes the .BIN exporter. The current version in partio/master does not work properly and will crash most programs that try to read .bin files written from partio. My pull request has been ignored so you will have to merge and re-build partio manually or just clone [my fork of partio](https://github.com/jamesvecore/partio) directly.
