@@ -18,11 +18,11 @@ Here are the details from the readme:
 
 This is a particle export plugin using the [Partio](http://www.disneyanimation.com/technology/partio.html) library for [Autodesk Softimage](http://www.autodesk.com/products/autodesk-softimage)
 
-##### To Build
+#### To Build
 
 Use [cmake](http://www.cmake.org/cmake/resources/software.html) to generate a VS solution file and build.
 
-##### To Use
+#### To Use
 
 - Load the plugin from the plugin manager ("File" -> "Plugin Manager").
 - Open the cache manager ("View" -> "Animation" -> "Cache Manager").
@@ -33,14 +33,14 @@ Use [cmake](http://www.cmake.org/cmake/resources/software.html) to generate a VS
 - Set your scene range and channels to export in the "Additional Options" tab.
 - Hit the "Write Cache" button.
 
-##### IMPORTANT note about missing channels
+#### IMPORTANT note about missing channels
 
 If your channels are not showing up in your particle files you need to be aware of how ICE optimizes data. Even if you write to an attribute explicitly with Set Data, if it is not used, it will be optimized away automatically by ICE and will not be exported.
-See [here](http://softimage.wiki.softimage.com/index.php?title=Optimization_of_ICE_Data) for details and workarounds
+See [here](http://softimage.wiki.softimage.com/index.php?title=Optimization_of_ICE_Data) for details and workarounds.
 
-##### Supported Formats
+#### Supported Formats
 
-Only exporting is supported and not all partio formats supported. The following formats are supported:
+Only exporting is supported and not all Partio formats supported. The following formats are supported:
 
 - BGEO
 - BIN[^1]

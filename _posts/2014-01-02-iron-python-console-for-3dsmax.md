@@ -16,4 +16,4 @@ This is quick video showing a WPF IronPython console I wrote for 3ds Max a while
 
 The purpose of this project was to be able to be interactively probe 3ds Max's .NET API as well as other .NET based tools inside 3ds Max. Technically you can do most of that directly from MaxScript, but I prefer IronPython since you get to use the Python language and access the CLR types in a more straight forward manner.
 
-This was also it was just a good excuse to play with the IronPython C# embedding API as well mess with WPF some more. With 3ds Max 2014 now having direct support for CPython, this is a little less useful, but I thought I would still share it anyways.
+This was also just a good excuse to play with the IronPython C# embedding API as well mess with WPF some more. With 3ds Max 2014 now having direct support for CPython, this is a little less useful, but I thought I would still share it anyways.

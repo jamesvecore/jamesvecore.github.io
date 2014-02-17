@@ -20,17 +20,17 @@ I have open sourced my Krakatoa for Softimage Plugin. The full source code is no
 
 Here are the details from the readme:
 
-This a simple plugin for Softimage that exposes the Krakatoa SR particle renderer from [Thinkbox Software](http://www.thinkboxsoftware.com/) as a renderer in Softimage. It is a very basic implementation at this point and is intended as a starting point rather than a fully functional production plugin.
-
-This plugin has NOT been tested in production is just intended as a test/example.
+This a simple plugin for Softimage that exposes the Krakatoa SR particle renderer from [Thinkbox Software](http://www.thinkboxsoftware.com/) as a renderer in Softimage.
+It is a very basic implementation at this point.
+This plugin has NOT been tested in production is just intended as a test/example/starting point.
 
 You will need a valid Krakatoa "Render" license from [Thinkbox](http://www.thinkboxsoftware.com/) for this plugin to work.
 
 To build you will also need the Krakatoa SR C++ SDK which can be downloaded from the [Thinkbox website](http://www.thinkboxsoftware.com/krakatoa-sr-downloads/)
 
-Pull requests welcomed.
+Pull requests welcome.
 
-##### Features
+#### Features
 
 - Renders ICE point clouds with Krakatoa from within Softimage as a native C++ renderer plug-in
 - Custom ICE channels mapped to Krakatoa channels (see below)
@@ -39,7 +39,7 @@ Pull requests welcomed.
 - Occlusion mesh support
 - Multi-channel EXR output support
 
-##### The Following ICE Channels are mapped for Krakatoa if they exist and are not being [optimized away by ICE](http://softimage.wiki.softimage.com/index.php?title=Optimization_of_ICE_Data)
+#### The Following ICE Channels are mapped for Krakatoa if they exist and are not being [optimized away by ICE](http://softimage.wiki.softimage.com/index.php?title=Optimization_of_ICE_Data)
 
 - PointPosition
 - Color
