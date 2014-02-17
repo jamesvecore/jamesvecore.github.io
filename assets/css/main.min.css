@@ -51,6 +51,7 @@
     -moz-border-radius-topleft: 3px;
     -webkit-background-clip: padding-box;
     -moz-background-clip: padding;
+    box-shadow: 0 12px 24px rgba(0,0,0,0.35);
 }
 
 .social-links a {
