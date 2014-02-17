@@ -2,7 +2,7 @@
 layout: post
 title: Krakatoa For Softimage Open Sourced
 description: "An open source integration of the Krakatoa SR api into Softimage as render engine."
-modified: 2014-02-16
+modified: 2013-12-27
 tags: [Krakatoa, Softimage, XSI, Rendering, Particles, ICE]
 image:
   feature: default.jpg
@@ -14,11 +14,12 @@ I have open sourced my Krakatoa for Softimage Plugin. The full source code is no
 
 <iframe src="//player.vimeo.com/video/82989087?title=0&amp;byline=0&amp;portrait=0&amp;color=c9ff23" width="500" height="302" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen> </iframe>
 
+
 <iframe src="//player.vimeo.com/video/82989087?title=0&amp;byline=0&amp;portrait=0&amp;color=c9ff23" width="500" height="302" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen> </iframe>
 
 Here are the details from the readme:
 
-This a simple plugin for Softimage that exposes the Krakatoa SR particle renderer from [Thinkbox](http://www.thinkboxsoftware.com/) Software as a renderer in Softimage. It is a very basic implementation at this point and is intended as a starting point rather than a fully functional production plugin.
+This a simple plugin for Softimage that exposes the Krakatoa SR particle renderer from [Thinkbox Software](http://www.thinkboxsoftware.com/) as a renderer in Softimage. It is a very basic implementation at this point and is intended as a starting point rather than a fully functional production plugin.
 
 This plugin has NOT been tested in production is just intended as a test/example.
 
@@ -37,7 +38,7 @@ Pull requests welcomed.
 - Occlusion mesh support
 - Multi-channel EXR output support
 
-##### The Following ICE Channels are mapped for Krakatoa if they exist and are not being optimized away by ICE
+##### The Following ICE Channels are mapped for Krakatoa if they exist and are not being [optimized away by ICE](http://softimage.wiki.softimage.com/index.php?title=Optimization_of_ICE_Data)
 
 - PointPosition
 - Color
