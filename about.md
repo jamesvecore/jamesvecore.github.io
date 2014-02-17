@@ -2,7 +2,7 @@
 layout: page
 permalink: /about/
 title: About Me
-tags: [Me]
+tags: [Me, James Vecore]
 image:
   feature: default.jpg
 share: false
