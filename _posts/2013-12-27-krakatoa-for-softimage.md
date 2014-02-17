@@ -30,7 +30,7 @@ To build you will also need the Krakatoa SR C++ SDK which can be downloaded from
 
 Pull requests welcome.
 
-#### Features
+#### Features:
 
 - Renders ICE point clouds with Krakatoa from within Softimage as a native C++ renderer plug-in
 - Custom ICE channels mapped to Krakatoa channels (see below)
@@ -39,7 +39,7 @@ Pull requests welcome.
 - Occlusion mesh support
 - Multi-channel EXR output support
 
-#### The Following ICE Channels are mapped for Krakatoa if they exist and are not being [optimized away by ICE](http://softimage.wiki.softimage.com/index.php?title=Optimization_of_ICE_Data)
+#### The Following ICE Channels are mapped for Krakatoa if they exist and are not being [optimized away by ICE](http://softimage.wiki.softimage.com/index.php?title=Optimization_of_ICE_Data):
 
 - PointPosition
 - Color
