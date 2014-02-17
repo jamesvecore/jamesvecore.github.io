@@ -54,3 +54,7 @@
 .social-links a:hover, .menu a:hover {
 	opacity: 1;
 }
+
+.entry-header {
+    box-shadow: 0 0 0 1px rgba(34,34,34,0.1),0 6px 12px rgba(34,34,34,0.1);
+}
