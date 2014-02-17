@@ -4,8 +4,8 @@ permalink: /about/
 title: About Me
 tags: [Me]
 image:
-  feature: top_shot.jpg
-share: true
+  feature: default.jpg
+share: false
 ---
 
 I am a CG/VFX Software Engineer with 10+ years of experience creating custom software, pipelines, and infrastructure for studios in Detroit and Los Angeles. I've bootstrapped three studios from scratch over the years taking them from zero infrastructure to complete, artist-friendly CG/VFX pipelines.
