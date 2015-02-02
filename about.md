@@ -1,10 +1,9 @@
 ---
 layout: page
+title: About
 permalink: /about/
-title: About Me
 tags: [Me, James Vecore]
-image:
-  feature: default.jpg
+image: /assets/images/trees2.jpg
 share: false
 ---
 

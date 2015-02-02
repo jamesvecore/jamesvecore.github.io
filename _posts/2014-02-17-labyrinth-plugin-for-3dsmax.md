@@ -4,8 +4,7 @@ title: Labyrinth Plugin For 3ds Max
 description: "A spline generating plug-in I wrote for Joker Martini"
 modified: 2013-12-27
 tags: [3ds Max, C++, Splines, MAXScript]
-image:
-  feature: default.jpg
+image: /assets/images/vinyl.jpg
 comments: true
 share: true
 ---
@@ -21,6 +20,8 @@ A C++ based plugin solved these issues and allowed for additional functionality 
 <p/>
 
 <iframe src="//player.vimeo.com/video/86815022?title=0&amp;byline=0&amp;portrait=0&amp;color=c9ff23" width="500" height="303" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+
+<p/>
 
 You can purchase the plugin [here](http://jokermartini.com/2014/02/17/labyrinth/) if you are interested.
 

@@ -1,69 +1,74 @@
-title:            "James Vecore's Blog"
-description:      "A blog covering my adventures in coding in the world of CG/VFX"
-disqus_shortname: jamesvecorescodeblog
-#Your site's domain goes here. Leave localhost server or blank when working locally.
-url:              http://www.jamesvecore.com
+# Build settings
+markdown: redcarpet
+highlighter: pygments
 
-# Owner/author information
-owner:
-  name:           James Vecore
-  avatar:         avatar.jpg
-  bio:            "I am a CG/VFX Software Engineer that loves to solve problems and code."
-  email:          james.vecore@gmail.com
-  # Social networking links used in footer. Update and remove as you like.
-  twitter:        jamesvecore
-  #facebook:       
-  github:         jamesvecore
-  #stackexchange:  
-  linkedin:       jamesvecore
-  vimeo:          jamesvecore
-  #instagram:      
-  #flickr:         
-  #tumblr:         
-  # For Google Authorship https://plus.google.com/authorship
-  google_plus_id:   113066912044332003688
+# Site settings
+title: "James Vecore"
+description: > # this means to ignore newlines until "email:"
+   James Vecore's Blog
 
-# Background image to be tiled on all pages
-background: ps_neutral.png
+email: james.vecore@gmail.com
+#blog logo
+logo: "/assets/images/jv_logo.jpg"
+# blog cover
+cover: "/assets/images/default.jpg"
 
-# Analytics and webmaster tools stuff goes here
-#google_analytics:   
-#google_verify:      
-# https://ssl.bing.com/webmaster/configure/verify/ownership Option 2 content= goes here
-#bing_verify:         
+name: 'James Vecore'
+author: 'James Vecore'
+author_image: "/assets/images/author.jpg"
 
-# Links to include in top navigation
-# For external links add external: true
-links:
-#  - title: Git Hub
-#    url: https://github.com/jamesvecore
-#    external: true
+paginate:	5
 
-# http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
-timezone:    America/Detroit
-future:      true
-pygments:    true
-markdown:    kramdown
+url: "http://www.jamesvecore.com" # the base hostname & protocol for your site
+baseurl: ""
 
-# https://github.com/mojombo/jekyll/wiki/Permalinks
-permalink:   /:categories/:title/
+# social icons and sharing options
+social:
+  - icon:	github
+    url:	https://github.com/jamesvecore
+    desc:	Fork me on github
+    share_url:
+    share_title:
+    share_link:
 
-# Amount of post to show on home page
-paginate: 5
+  - icon: vimeo-square
+    url:  https://vimeo.com/jamesvecore
+    desc: Watch me on Vimeo
+    share_url:
+    share_title:
+    share_link:
 
-kramdown:
-  auto_ids: true
-  footnote_nr: 1
-  entity_output: as_char
-  toc_levels: 1..6
-  use_coderay: true
+  - icon: linkedin
+    url:  https://www.linkedin.com/in/jamesvecore
+    desc: Stalk me on LinkedIn
+    share_url:
+    share_title:
+    share_link:
 
-  coderay:
-    coderay_line_numbers: nil
-    coderay_line_numbers_start: 1
-    coderay_tab_width: 4
-    coderay_bold_every: 10
-    coderay_css: class
+  - icon: twitter
+    url:  https://twitter.com/jamesvecore
+    desc: Follow me on twitter
+    share_url: http://twitter.com/share
+    share_title: ?text=
+    share_link: "&amp;url="
 
-include: [".htaccess"]
-exclude: ["lib", "config.rb", "Capfile", "config", "log", "Rakefile", "Rakefile.rb", "tmp", "less", "*.sublime-project", "*.sublime-workspace", "test", "spec", "Gruntfile.js", "package.json", "node_modules"]
+  - icon: rss
+    url:  "/feed.xml"
+    desc: Subscribe to me RSS
+    share_url:
+    share_title:
+    share_link:
+
+#  - icon:	facebook
+#    url:	https://facebook.com/???
+#    desc: Connect with me facebook
+#    share_url: //www.facebook.com/sharer.php
+#    share_title: ?t=
+#    share_link: "&amp;u="
+
+#  - icon:	google-plus
+#    url:	https://google.com/???
+#    desc:	Add me on google+
+#    share_url:
+#    share_title:
+#    share_link:

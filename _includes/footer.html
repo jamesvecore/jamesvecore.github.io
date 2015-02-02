@@ -1,4 +1,11 @@
-<span>&copy; {{ site.time | date: '%Y' }} {{ site.owner.name }}. Powered by <a href="http://jekyllrb.com"><b>Jekyll</b></a> forked from <a href="http://mademistakes.com/"><b>this theme</b></a>.</span>
-<div>
-    <a href="{{ site.url }}/feed.xml"><b>RSS Feed &nbsp;</b><span class="icon-rss"></span></a>
-</div>
+<!-- footer start -->
+
+<footer class="site-footer">
+  <a class="subscribe" href="{{ "/feed.xml" | prepend: site.baseurl }}"> <span class="tooltip"> <i class="fa fa-rss"></i> Subscribe!</span></a>
+    <div class="inner">
+         <section class="copyright">All content copyright <a href="mailto:{{ site.email}}">{{ site.name }}</a> &copy; {{ site.time | date: '%Y' }} &bull; All rights reserved.</section>
+         <section class="poweredby">Made with <a href="http://jekyllrb.com"> Jekyll</a></section>
+    </div>
+</footer>
+
+<!-- footer end -->

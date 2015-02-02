@@ -4,8 +4,7 @@ title: Krakatoa For Softimage Open Sourced
 description: "An open source integration of the Krakatoa SR api into Softimage as render engine."
 modified: 2013-12-27
 tags: [Krakatoa, Softimage, XSI, Rendering, Particles, ICE, C++]
-image:
-  feature: default.jpg
+image: /assets/images/blocks.jpg
 comments: true
 share: true
 ---
@@ -17,6 +16,8 @@ I have open sourced my Krakatoa for Softimage Plugin. The full source code is no
 <p/>
 
 <iframe src="//player.vimeo.com/video/82989087?title=0&amp;byline=0&amp;portrait=0&amp;color=c9ff23" width="500" height="302" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen> </iframe>
+
+<p/>
 
 Here are the details from the readme:
 
